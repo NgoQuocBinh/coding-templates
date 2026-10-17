@@ -16,6 +16,14 @@ using ld = long double;
 #define ss second
 #define en "\n"
 
+namespace subtask_full
+{
+        void solve()
+        {
+
+        }
+}
+
 int main()
 {
         ios_base::sync_with_stdio(0);
