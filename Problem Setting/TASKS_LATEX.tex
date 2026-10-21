@@ -1,5 +1,7 @@
 \documentclass[12pt,a4paper]{article}
 
+\usepackage{fancyhdr}
+\usepackage{lastpage}
 \usepackage{fontspec}
 \usepackage{polyglossia}
 \setdefaultlanguage{vietnamese}
@@ -18,6 +20,7 @@
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{6pt}
 
+\usepackage{enumitem}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{array}
@@ -35,21 +38,18 @@
 
 \begin{document}
 
-\begin{center}
-    {\LARGE\bfseries Tên bài}
+\vspace{0.4em}
 
-    \vspace{0.4em}
+{\LARGE\bfseries Tên bài}
 
-    {\small
-    Giới hạn thời gian: 1 giây \quad
-    Giới hạn bộ nhớ: 1024 MB
-    }
+\vspace{-0.2em}
 
-    {\small
-    File dữ liệu vào: \texttt{idk.inp} \quad
-    File dữ liệu ra: \texttt{idk.out}
-    }
-\end{center}
+\begin{itemize}[leftmargin=1.5em, topsep=0pt, itemsep=2pt]
+    \item Giới hạn thời gian: 1 giây
+    \item Giới hạn bộ nhớ: 1024 MB
+    \item File dữ liệu vào: \texttt{idk.inp}
+    \item File dữ liệu ra: \texttt{idk.out}
+\end{itemize}
 
 \section*{Dữ liệu vào}
 
@@ -74,7 +74,7 @@ Kết quả ghi ra file \texttt{idk.out}:
 
 \begin{tabular}{|p{0.55\textwidth}|p{0.20\textwidth}|}
     \hline
-    \centering\texttt{dijout.inp} & \centering\texttt{dijout.out} \tabularnewline
+    \centering\texttt{idk.inp} & \centering\texttt{idk.out} \tabularnewline
     \hline
 
     {\ttfamily
