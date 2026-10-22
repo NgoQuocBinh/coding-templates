@@ -1,5 +1,4 @@
 # Coding Templates
-<<<<<<< HEAD
 
 A collection of reusable templates for **Competitive Programming** and **Problem Setting**.
 
@@ -105,5 +104,3 @@ They are designed to help get started quickly rather than provide a complete fra
 This repository is provided as-is.
 
 Feel free to use and modify the templates for your own purposes.
-
->>>>>>> 3bbe3f5 (Initial commit)
