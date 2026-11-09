@@ -24,6 +24,8 @@ Templates for writing and formatting programming problems.
 | File | Description |
 | --- | --- |
 | [`TASKS_LATEX.tex`](./Problem%20Setting/TASKS_LATEX.tex) | LaTeX template for writing problem statements |
+| [`checker.cpp`](./Problem%20Setting/checker.cpp) | Checker |
+| [`validator.cpp`](./Problem%20Setting/validator.cpp) | Validator |
 
 ## Purpose
 
